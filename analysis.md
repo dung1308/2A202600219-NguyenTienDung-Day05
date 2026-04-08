@@ -1,6 +1,6 @@
 Phân tích sản phẩm AI thật
 ===================
-# Phần 1: Khám phá: AI của Momo: Moni
+## Phần 1: Khám phá: AI của Momo: Moni
 - Trước khi dùng: Đưa ra AI Moni, 1 AI agent có nhiệm vụ trợ lý quản tài chính của chủ tài khoản dùng Momo với các vai trò:
 ·  Phân tích hành vi chi tiêu 
 ·  Gợi ý tiết kiệm 
@@ -14,17 +14,21 @@ Phân tích sản phẩm AI thật
 - Sau khi dùng: + Moni có phân tích dữ liệu  và đọc hành vi chi tiêu khi dùng Momo -> Thống kê chi tiết chi tiêu của mình
 + Đối với những câu từ mơ hồ như “TÌm mẹ tôi” hay “chuyển cho mẹ tôi” -> Moni vẫn tìm dữ liệu và chỉ kết quả là báo lỗi là không tìm thấy, không trả lời câu là một chatbot
 
-# Phần 2 — Phân tích 4 paths (10 phút)
+## Phần 2 — Phân tích 4 paths (10 phút)
 
 
 Dùng framework 4 paths để mổ xẻ sản phẩm:
 Path	Câu hỏi
-1. Khi AI đúng	User thấy AI quản lý chi tiêu tốt vì AI có thống kê khoản chi của mình
+### 1. AI đúng
+User thấy AI quản lý chi tiêu tốt vì AI có thống kê khoản chi của mình
 AI cũng cho user thấy 1 khía cạnh của system prompt của nó
-2. Khi AI không chắc	Hệ thống sẽ hỏi lại (VD: chỗ vừa tiền? AI hỏi nơi ở/chỗ đi/ và gợi ý ưu đãi)
+### 2. AI không chắc
+Hệ thống sẽ hỏi lại (VD: chỗ vừa tiền? AI hỏi nơi ở/chỗ đi/ và gợi ý ưu đãi)
 Hệ thống sẽ bảo không có dữ liệu (Không có thông tin như ưu đãi của sinh viên VinUNI)
-3. Khi AI sai	Gợi ý nhầm ưu đãi khi ưu đãi chưa cập nhật với thực tế. Thiếu sót chi tiết giao dịch khi hệ thống chưa đồng bộ dữ liệu. Và đôi lúc một số prompt mơ hồ, sai cú pháp AI sẽ bị overtime và thông báo thử lại
-4. Khi user mất tin	Có 1 nút (bên phải trên cùng) nhờ hỗ trợ trực tuyến với người thật, 
+### 3. AI sai
+Gợi ý nhầm ưu đãi khi ưu đãi chưa cập nhật với thực tế. Thiếu sót chi tiết giao dịch khi hệ thống chưa đồng bộ dữ liệu. Và đôi lúc một số prompt mơ hồ, sai cú pháp AI sẽ bị overtime và thông báo thử lại
+### 4. User mất niềm tin
+Có 1 nút (bên phải trên cùng) nhờ hỗ trợ trực tuyến với người thật, 
 Không thể kết nối với người thật bằng cách chat với Moni
 Có manual kể cả trong khi chat Moni (Ko có Moni, manual ?) và bên Momo
 
