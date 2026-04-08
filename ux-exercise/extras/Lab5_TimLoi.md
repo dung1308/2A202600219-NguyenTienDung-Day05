@@ -1,4 +1,4 @@
-1.Tìm lỗi trong spec trong Chủ đề:
+# 1.Tìm lỗi trong spec trong Chủ đề:
 AI tóm tắt meeting "AI tóm tắt meeting cuộc họp thành bullet. Bắt action items, người chịu trách nhiệm và gửi email tự động".
 
 - Kịch bản 1 (processing sai trong thực tế): Trong cuộc họp, sếp nói: "Nam ơi, nhắc phía bên đối tác là chị Lan cần duyệt file thiết kế trước thứ Sáu nhé."
@@ -13,7 +13,7 @@ AI tóm tắt meeting "AI tóm tắt meeting cuộc họp thành bullet. Bắt a
 + AI xử lý: Action Item: "Cả đội chuẩn bị kế hoạch kinh doanh muối."
 + Hậu quả: Email gửi đi một yêu cầu ngớ ngẩn, làm giảm uy tín của hệ thống AI trong mắt nhân sự.
 + Nguyên nhân: AI (đặc biệt là các model cũ hoặc chưa tối ưu tiếng Việt) rất kém trong việc hiểu sắc thái mỉa mai hoặc các câu thành ngữ, tục ngữ.
-2. User Story Path bị thiếu: "Vòng lặp phê duyệt" (The Approval Loop)
+# 2. User Story Path bị thiếu: "Vòng lặp phê duyệt" (The Approval Loop)
 Hầu hết các quy trình tự động hóa đều đi thẳng từ: Họp -> AI Tóm tắt -> Gửi Email. Đây là con đường ngắn nhất dẫn đến thảm họa truyền thông.
 Path thiếu (The Missing Step):
 "Với tư cách là người chủ trì cuộc họp, tôi muốn xem lại và chỉnh sửa bản tóm tắt của AI trước khi nó được gửi đi tự động."
