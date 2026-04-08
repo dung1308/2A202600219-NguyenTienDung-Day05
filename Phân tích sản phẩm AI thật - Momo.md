@@ -66,7 +66,7 @@ Before: - AI = nguồn duy nhất :
 + After: - User = nguồn feedback trực tiếp
 
 
-# Phần 4: Vote
+# Phần 4: Share + Vote
 
 
 
