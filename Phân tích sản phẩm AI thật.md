@@ -42,25 +42,26 @@ Phần 3 — Sketch "làm tốt hơn" (10 phút)
 
 
 
-Thêm: 1. Explain nhẹ (giải thích vì sao AI ra kết quả)
-Hiển thị transaction breakdown
-User hiểu “AI nghĩ gì” (không còn black box)
+Thêm: 
+1. Explain nhẹ (giải thích vì sao AI ra kết quả)
+-Hiển thị transaction breakdown
+-> User hiểu “AI nghĩ gì” (không còn black box)
 2.Confirmation + reassurance
-“Đã cập nhật ” 
-“Moni sẽ ghi nhớ cho lần sau”
+-“Đã cập nhật ” 
+-“Moni sẽ ghi nhớ cho lần sau”
 Bỏ: 1. Black-box behavior
-AI đưa kết quả nhưng: 
-oKhông explain 
-oKhông trace được nguồn
+-AI đưa kết quả nhưng: 
++Không explain 
++Không trace được nguồn
 2. Silent failure
-Sai nhưng: 
-oKhông cảnh báo 
-oKhông hướng dẫn sửa 
+-Sai nhưng: 
++ Không cảnh báo 
++ Không hướng dẫn sửa 
 Đổi: 1. Từ “AI đoán” → “AI + user đồng chỉnh”
 Before:
-AI = nguồn duy nhất 
+- AI = nguồn duy nhất 
 After:
-User = nguồn feedback trực tiếp
+- User = nguồn feedback trực tiếp
 Chốt lại: “Chuyển failure từ điểm gãy thành điểm tương tác — nơi user không chỉ sửa dữ liệu mà còn huấn luyện lại AI.”
 
 
