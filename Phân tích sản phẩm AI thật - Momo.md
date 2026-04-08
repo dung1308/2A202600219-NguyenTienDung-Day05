@@ -77,4 +77,6 @@ Before: - AI = nguồn duy nhất :
 
 Ý chính: biến lỗi AI từ điểm gãy thành điểm học."
 
+Nhóm Vote sketch: Cá nhân 3/10, Vinh 5/10 -> Chọn sketch sản phẩm Momo của Vinh.
+
 
