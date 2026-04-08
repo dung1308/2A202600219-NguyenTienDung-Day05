@@ -1,6 +1,6 @@
 Phân tích sản phẩm AI thật
 ===================
-Phần 1: Khám phá: AI của Momo: Moni
+# Phần 1: Khám phá: AI của Momo: Moni
 - Trước khi dùng: Đưa ra AI Moni, 1 AI agent có nhiệm vụ trợ lý quản tài chính của chủ tài khoản dùng Momo với các vai trò:
 ·  Phân tích hành vi chi tiêu 
 ·  Gợi ý tiết kiệm 
@@ -13,9 +13,9 @@ Phần 1: Khám phá: AI của Momo: Moni
 ·  Gợi ý thao tác chuyển tiền
 - Sau khi dùng: + Moni có phân tích dữ liệu  và đọc hành vi chi tiêu khi dùng Momo -> Thống kê chi tiết chi tiêu của mình
 + Đối với những câu từ mơ hồ như “TÌm mẹ tôi” hay “chuyển cho mẹ tôi” -> Moni vẫn tìm dữ liệu và chỉ kết quả là báo lỗi là không tìm thấy, không trả lời câu là một chatbot
-===================
-Phần 2 — Phân tích 4 paths (10 phút)
-===================
+
+# Phần 2 — Phân tích 4 paths (10 phút)
+
 
 Dùng framework 4 paths để mổ xẻ sản phẩm:
 Path	Câu hỏi
@@ -34,7 +34,7 @@ Có manual kể cả trong khi chat Moni (Ko có Moni, manual ?) và bên Momo
 - Path “Khi AI sai” yếu nhất vì: + Moni phụ thuộc vào hệ thống và không phụ thuộc vào dữ liệu trong thực tế. VD: Kiểm tra ưu đãi đãi ngộ dành cho sinh viên AI thực chiến ? Moni không biết
 + Những prompt mơ hồ như “bác tôi, mẹ tôi” hay những từ sai cú pháp “thanhg tón” làm Moni suy nghĩ lâu dẫn đến lỗi overtime hoặc trả lời không biết user nói gì
 
-Phần 3 — Sketch "làm tốt hơn" (10 phút)
+# Phần 3 — Sketch "làm tốt hơn" (10 phút)
 
 
 <img width="176" height="483" alt="as_is1" src="https://github.com/user-attachments/assets/d38c3d71-7e59-4dfd-9d37-712badfec805" />              <img width="211" height="572" alt="to_be" src="https://github.com/user-attachments/assets/72bcf95a-df25-4496-a0a8-17699b8bc380" />
@@ -66,7 +66,7 @@ After:
 - User = nguồn feedback trực tiếp
 Chốt lại: “Chuyển failure từ điểm gãy thành điểm tương tác — nơi user không chỉ sửa dữ liệu mà còn huấn luyện lại AI.”
 
-Phần 4: Vote
+# Phần 4: Vote
 
 
 
