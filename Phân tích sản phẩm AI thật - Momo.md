@@ -64,5 +64,7 @@ After:
 - User = nguồn feedback trực tiếp
 Chốt lại: “Chuyển failure từ điểm gãy thành điểm tương tác — nơi user không chỉ sửa dữ liệu mà còn huấn luyện lại AI.”
 
+Phần 4: Vote
+
 
 
