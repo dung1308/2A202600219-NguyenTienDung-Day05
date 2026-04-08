@@ -38,6 +38,10 @@ Có manual kể cả trong khi chat Moni (Ko có Moni, manual ?) và bên Momo
 - Path “Khi AI sai” yếu nhất vì: + Moni phụ thuộc vào hệ thống và không phụ thuộc vào dữ liệu trong thực tế. VD: Kiểm tra ưu đãi đãi ngộ dành cho sinh viên AI thực chiến ? Moni không biết
 + Những prompt mơ hồ như “bác tôi, mẹ tôi” hay những từ sai cú pháp “thanhg tón” làm Moni suy nghĩ lâu dẫn đến lỗi overtime hoặc trả lời không biết user nói gì
 
+## Gap marketing vs thực tế
+- Marketing: "Moni giúp quản lý chi tiêu thông minh"
+- Thực tế: Ranh giới giữa "Chủ động" (Proactive) và "Làm phiền" (Intrusive) rất mong manh.
+- Gap cảm giác của User: Thấy bị theo dõi và khai thác nỗi sợ hãi ngay lúc đang lo lắng.
 # Phần 3 — Sketch "làm tốt hơn" (10 phút)
 
 
