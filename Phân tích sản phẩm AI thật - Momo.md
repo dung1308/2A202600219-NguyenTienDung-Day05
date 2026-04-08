@@ -58,8 +58,8 @@ Bỏ: 1. Black-box behavior
 2. Silent failure
 -Sai nhưng: 
 + Không cảnh báo 
-+ Không hướng dẫn sửa 
-Đổi:
++ Không hướng dẫn sửa
+  Đổi:
 1. Từ “AI đoán” đến “AI + user đồng chỉnh”
 Before: - AI = nguồn duy nhất 
 After: - User = nguồn feedback trực tiế
